@@ -1,0 +1,315 @@
+/****************** Z E  F O N T S **********************/
+@font-face {
+    font-family: 'LeagueGothic';
+    src: url('../fonts/League_Gothic-webfont.eot');
+    src: url('../fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/League_Gothic-webfont.woff') format('woff'),
+         url('../fonts/League_Gothic-webfont.ttf') format('truetype'),
+         url('../fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Source';
+    src: url('../fonts/SourceSansPro-Light-webfont.eot');
+    src: url('../fonts/SourceSansPro-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Light-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-Light-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-Light-webfont.svg#SourceSansProLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ethno';
+    src: url('../fonts/ethnocentric_rg-webfont.eot');
+    src: url('../fonts/ethnocentric_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ethnocentric_rg-webfont.woff') format('woff'),
+         url('../fonts/ethnocentric_rg-webfont.ttf') format('truetype'),
+         url('../fonts/ethnocentric_rg-webfont.svg#ethnocentricregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face{
+	font-family: 'Mochi';
+	src: url('../fonts/MochiyPopPOne-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'FiraSans';
+	src: url('../fonts/FiraSans-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Cabin';
+	src: url('../fonts/Cabin.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/************** G E N E R A L    S T Y L E ***************/
+#wrapper{
+	width: 950px;
+	margin: 16px auto;
+	background-color: #07060a;
+	padding: 20px 20px;
+	box-shadow: 0 4px 6px #000;
+}
+
+body{
+	background: url('../images/bg.png') repeat;
+	font-family: Source, Tahoma, sans-serif;
+	color: #fff;
+	font-size: 14px;
+	text-shadow: 1px 1px 0px #000;
+}
+#bwm{
+	color: #f9f9f9;
+	font-family: FiraSans;
+	display: block;
+	float: left;
+	position: relative;
+	text-shadow: 1px 1px 0px #000;
+	font-size: 24px;
+	font-style: normal;
+	font-family: Mochi, sans-serif;
+	font-weight: normal;
+}
+#BWM{
+	color: #f9f9f9;
+	display: block;
+	float: right;
+	position: absolute;
+	top: 14px;
+	left: 180px;
+	text-shadow: 1px 1px 0px #000;
+	font-size: 36px;
+	font-style: italic;
+	font-family: ethno, sans-serif;
+	font-weight: normal;
+}
+#ii{
+	font-size: 60px;
+	font-family: LeagueGothic, sans-serif;
+	font-weight: bold;
+	position: absolute;
+	left: 169px;
+	top: -3px;
+	color: #3324b8;
+	display: block;
+	float: right;
+	text-shadow: none;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+
+/************* L O G O   &  N A V   B A R    S T Y L E ****************/
+header h1{
+	font-family: LeagueGothic, Impact, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 2.5em;
+	text-shadow: 1px 1px 0 #000;
+	position: relative;
+	width: 300px;
+	margin-bottom: 2px;
+}
+header h2{
+	font-size: 16px;
+	font-weight: normal;
+	font-family: LeagueGothic, sans-serif;
+	width: 170px;
+	text-shadow: 1px 1px 0 #000;
+	text-transform: uppercase;
+}
+#tagline{
+		margin-top: -8px;
+}		
+#logo, nav, nav li{
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	zoom:1;
+}
+#logo{
+	width: 270px;
+}
+nav a {
+	color: #fff;
+	font-family: LeagueGothic, sans-serif;
+	text-decoration: none;
+	font-size: 1.5em;
+	margin-left: 25px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #000;
+}
+
+nav{
+	margin: 20px 4px 0 0;
+	float: right;
+}
+header{
+	margin-bottom: 25px;
+}
+#home a#homenav, #blog a#blognav, #social a#socialnav, #contact a#contactnav{
+	color: #3a24b8;
+}
+/*************** B A N N E R    S T Y L E ******************/
+.nivo-caption {
+	font-family: Cabin;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    z-index: 8;
+    padding: 10px 10px;
+    opacity: 0.8;
+    overflow: hidden;
+    display: block;
+}
+#banner{
+	position: relative;
+	margin-bottom: 30px;
+}
+#banneri{
+	position: absolute;
+	bottom: 15%;
+	left: 0;
+	width: 500px;
+	background-color: rgba(0,0,0,.8);
+	padding: 5px 10px;
+}
+#banner img{
+	box-shadow: 0 4px 6px #000;
+}
+#banner h1{
+	font-family: LeagueGothic, Impact, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 0px #000;
+	display: inline;
+}
+#banner .rm{
+	position: absolute;
+	color: #000;
+	background-color: #fff;
+	padding: 4px 8px;
+	right: 3%;
+	bottom: -10%;
+}
+
+/************* H O M E    C O N T E N T *******************/
+#line h1{
+	font-family: LeagueGothic, Impact, sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #f8f8f8;
+	text-shadow: 2px 2px 0 #000;
+	text-align:  center;
+}
+#line h1, .dline{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	margin: 0 0 0 10px;
+}
+#line{
+		margin: 0 0 0 80px;
+}
+.dline{
+	width: 312px;
+	height: 3px;
+	background: url('../images/bgdline.png') repeat-x ;
+	margin-bottom: 10px;
+}
+#ourserv article{
+	width: 275px;
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	vertical-align: top;
+	margin: 0 38px 0 0;
+}
+#ourserv article h1, #latestp article h1{
+	font-family: LeagueGothic, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+.lastarticle{
+	margin:0;
+}
+#ourserv{
+	margin: 8px 0 15px 20px;
+	width: 100%;
+}
+#ourserv img, #latestp img{
+	margin-bottom: 5px;
+    box-shadow: 0 4px 6px #000;
+}
+.rm{
+	color: #b62828;
+	background-color: #423c52;
+	padding: 1px 4px;
+	display:block;
+	width: 58px;
+	margin-top: 5px;
+	font-family: LeagueGothic, sans-serif;
+	text-transform: uppercase; 
+	font-size: 18px;
+	border-radius: 2px;
+}
+.rm:hover{
+	background-color: #B82924;
+	color: #121212;
+}	
+
+#sline h1{
+	font-family: LeagueGothic, Impact, sans-serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	text-shadow: 2px 2px 0 #000;
+	text-align:  center;
+}
+#sline h1, .sdline{
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	margin: 0 0 0 10px;
+}
+#sline{
+	margin: 20px 0 10px 80px;
+}
+.sdline{
+	width: 300px;
+	height: 2px;
+	background: url('../images/bgdline.png') repeat-x ;
+	margin-bottom: 10px;
+}
+#latestp article{
+	width: 300px;
+	display: inline-block;
+	*display: inline;
+	zoom:1;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#latestp{
+	margin-left: 20px;
+}
+
+
+/************* F O O T E R     S T Y L E *************************/
+
+footer{
+	margin-top: 30px;
+	text-align: right;
+}
